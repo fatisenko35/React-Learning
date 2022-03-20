@@ -1,11 +1,13 @@
+import Footer from "./Footer";
 import Header from "./Header";
+import Msg from "./Msg";
 
 function App() {
   return (
     <div>
-      <h1>Hello React</h1>
-      <h2>Hello Fs10</h2>
       <Header />
+      <Msg />
+      <Footer />
     </div>
   );
 }
